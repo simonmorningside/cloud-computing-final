@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h1>Detected Items</h1>
+    <ul>
+        {% for item in items %}
+            <li>
+                <strong>Label:</strong> {{ item.label }}<br>
+                <strong>Product:</strong> {{ item.title }}<br>
+                <strong>Price:</strong> {{ item.price }}<br>
+                <strong>Description:</strong> {{ item.description }}<br><br>
+            </li>
+        {% endfor %}
+    </ul>
+    
+    <h2>Annotated Image</h2>
+    <img src="{{ url_for('static', filename=annotated_image.split('static/')[-1]) }}" width="600" alt="Annotated Image">
+
+
+    {% if any_unknowns %}
+        <hr>
+        <p>Some items could not be matched. You can help improve detection by labeling them manually:</p>
+        <a href="/label"><button>Label Unknown Items</button></a>
+    {% endif %}
+
+    <br><a href="/">Try another image</a>
+</body>
+</html>

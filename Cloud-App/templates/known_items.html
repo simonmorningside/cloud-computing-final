@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Known Items</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Known (Labeled) Items</h1>
+
+    {% if items %}
+        <ul>
+            {% for item in items %}
+                <li>
+                    <strong>Label:</strong> {{ item.label }}<br>
+                    <strong>Product:</strong> {{ item.title }}<br>
+                    <strong>Price:</strong> {{ item.price }}<br>
+                    <strong>Description:</strong> {{ item.description }}<br>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No items labeled yet.</p>
+    {% endif %}
+
+    <a href="/">Back to Upload</a>
+</body>
+</html>

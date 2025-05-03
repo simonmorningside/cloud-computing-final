@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Label Unknown Items</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Label Unknown Items</h1>
+    {% if unknowns %}
+        <form action="/label" method="POST">
+            <label for="label">Select Unknown Label:</label>
+            <select name="label" required>
+                {% for label in unknowns %}
+                    <option value="{{ label }}">{{ label }}</option>
+                {% endfor %}
+            </select><br><br>
+
+            <label>Product Title:</label><br>
+            <input type="text" name="title" required><br><br>
+
+            <label>Price:</label><br>
+            <input type="text" name="price" required><br><br>
+
+            <label>Description:</label><br>
+            <textarea name="description" rows="4" cols="40" required></textarea><br><br>
+
+            <button type="submit">Save Product</button>
+        </form>
+    {% else %}
+        <p>No unknown items to label!</p>
+    {% endif %}
+
+    <br><a href="/">Back to Upload</a>
+</body>
+</html>

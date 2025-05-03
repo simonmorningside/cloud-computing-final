@@ -1,0 +1,22 @@
+{
+  "Musical instrument": {
+    "title": "Instrument",
+    "price": "NA",
+    "description": "Instrument of some kind with no visible family"
+  },
+  "String instrument": {
+    "title": "String instrument",
+    "price": "$ - $$$",
+    "description": "An instrument of unknown specifics that belongs to the Strings Family"
+  },
+  "Saxophone": {
+    "title": "Saxophone",
+    "price": "$$ - $$$",
+    "description": "A Saxophone the specific type unknown however"
+  },
+  "Teddy bear": {
+    "title": "DjungleSkog",
+    "price": "25$",
+    "description": "Large Swedish stuffed teddy bear, very internet famous. Proceed With Caution "
+  }
+}

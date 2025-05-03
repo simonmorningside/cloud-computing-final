@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "flint-floral-park",
+  "private_key_id": "3afec11ea9ae5248f418f54ce7b896937d3c497a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3U8Gft1oH83ya\nArNEUlH4os1kCoE/be1Z04/l2ZgJqauTii5rBY87vcpB8JgnHVdW3XrpoxNumgn1\nEeKz/ntvPDOiw+890VYxQfOHmwoxQocZzEyzky24MenEoRvDqlu5qyPJNLlMUvLp\nws2oRo5K9MMyfn4MUJm5FDglJQ0+jOpv5myw1ydWs2nMiR0M6v1ZrXrjsGRGVsFp\nbas4ikogKg24YWNzK/kTMXaKOpNwPJMgOrsLuqXJYipgDzGcfYoDO9mwqjl4t/0t\nRNWK0AIg0Obfr9M5heJRtNNuq+H1FeCDAPRMEtuq20H6D/9nkFv4jEU0qrm4HZ98\n7UWDoYJvAgMBAAECggEAWFENMjhOMw5ltHwgiIVv3+vuLoexBDGc6m01IXHWALGw\nan9jJUOkYQ9pZKLXaeCEtuAz2mIpdlrW+S0IndW2+TtzVLI3ivxSHaC8BVP3cQuv\nsgnt2YTJvbat+3/xtC1ZyvRbZQ71RYOgamTiVnLHEe0gLC8r4hriM3s+IQbcfojq\naX0BUUajPTqsSO/IeALWvGvgj5TVv5Ul7uIH1yDiwY29nuFKcVsZjI/b3FH7F6hT\nmvG4gC7ysnbay4j4iOJkyJTdtjCicW0HZSQDb2LtsNBHBg+X+90faXOhVsBCJ07T\nkhna9uyQ7E5x5ufu7KOb4q8zfNXJmVPYvjMmPjHYAQKBgQDxJq7EwLovtcbb0CBJ\nyHEaZU0c1+oVGH32UrsDb3z75VwtRhD/UzLigaWkz7aadDjg78Mp2+7RFqDSWDsh\n4J2pRu18HgLd9GLMH/BhcqN2YUf5XaguP8L3g9Fh3xdM2xvud/0NbuujsoW+aX8M\nFMv6JpG/zxcT0g2P2Z78+jWbbwKBgQDCnZUbg3XU7O7xRN20jelvwXdzx/G6NQ5c\nliFtXNjP+kHE+Fbd/VqHNsCmhnoNeCSv7MRXqoe6nCsylSTzZ3VBIxue1ltDPV80\n/cyEzX4CyEaqtTBt+Oi9qv9Ysn+nwSHZIFhZzY5smmDhWjE5Nqit7HwC+uyP0YU6\nRZKuwdsJAQKBgQCkmqDk0CDGfC+WzwObGWSKfeca7w5rA+LHBkV83NbVIgO/K3pi\nramoDpLAYr/jwb0pXL88jVEAC5AOxAbo4ub7KtzjwaB3XF8rsglkmtmU7mYwgotP\ntloglSuQwLSo007HgcOLLdFOVYcRJ/V+i5uHzlfiMzsvXku/iu4JA8kfpQKBgHYf\nc3tJpWFhlf33EKIgaImeYcRynXOp9FeaABwC+M3zVawaF4+R0Tq0ruXkRXybaZkm\nGl4jcVKAq29+OvlJ2E964a7c6HO9cmYVjeclWtCRguLmKsj1BT7p5SaO4RCPFt5U\n1YtcSo/8e8UMG0hgtq0qFnMwnhkE0Np3k/piS3IBAoGABb5pa1pxdD0Xh5RnSz0k\n7xcHntRMgroHL6z5fDXFVIuVrTYSxFHXjEoMNKdPT4bVzeRsd+qJ+uGGBG3Tl0pk\nAE+KboWLk9Wso3qE91gT+saguYi3AqeC3VXJrb5KThdGu5VIxxC5awsOP2b+liIk\nECKdghUEuXfHu2hmzSvHBUM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "vision-account@flint-floral-park.iam.gserviceaccount.com",
+  "client_id": "104491557091089795049",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vision-account%40flint-floral-park.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
